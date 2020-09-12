@@ -2,10 +2,14 @@ body {
         background-color: powderblue;
   }
   h1 {
-
         color: blue;
+        font-family: League Spartan;
+        font-size: 100%
   }
   p {
         border: 2px solid green;
+        font-family: League Spartan;
+        font-size: 100%
+        padding: 50px;
         color: red;
   }
