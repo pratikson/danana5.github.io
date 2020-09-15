@@ -1,6 +1,5 @@
 body {
-    background-image: url(Background.jpg);
-    background-position: center;
+    scroll-behavior: smooth;
     text-align: center;
   }
   .button {
@@ -17,9 +16,15 @@ body {
     cursor: pointer;
   }
   .header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
+    background: linear-gradient(rgba(255, 255, 255, .20), rgba(255, 255, 255, .20)), url("Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 100%;
+  }
+
+  .about {
+    background-color: white;
   }
 
   .button1 {
@@ -35,11 +40,15 @@ body {
   .button1:active, .button1:link {
     background-color: blue;
   }
-  img {
-    opacity: 0.5;
-  }
   h1 {
-        color: whitesmoke;
+        color: hotpink;
+        font-family: helvetica;
+        font: outline;
+        font-size: 400%;
+        padding: 50px
+  }
+  h2 {
+      color: grey;
         font-family: helvetica;
         font-size: 400%;
         padding: 50px
@@ -49,4 +58,10 @@ body {
         font-size: 200%;
         padding: 50px;
         color:whitesmoke;
+  }
+  p2 {
+        font-family: helvetica;
+        font-size: 200%;
+        padding: 50px;
+        color: grey;
   }
