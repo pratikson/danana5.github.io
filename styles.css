@@ -16,11 +16,40 @@ body {
     cursor: pointer;
   }
   .header {
-    background: linear-gradient(rgba(255, 255, 255, .20), rgba(255, 255, 255, .20)), url("img/Background.jpg");
+    background: linear-gradient(rgba(255, 255, 255, .20), rgba(255, 255, 255, .20)), url("img/Background2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
     height: 100%;
+  }
+
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:black; }
+  }
+  img {
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
   }
 
   .about {
@@ -42,25 +71,28 @@ body {
   }
   h1 {
         color: hotpink;
-        font-family: helvetica;
+        font-family: Inconsolata;
         font: outline;
-        font-size: 400%;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        text-align: center, top, bottom;
+        font-size: 280%;
         padding: 50px
   }
   h2 {
       color: grey;
-        font-family: helvetica;
+        font-family: Inconsolata;
         font-size: 400%;
         padding: 50px
   }
   p {
-        font-family: helvetica;
+        font-family: Inconsolata;
         font-size: 200%;
         padding: 50px;
         color:whitesmoke;
   }
   p2 {
-        font-family: helvetica;
+        font-family: Inconsolata;
         font-size: 200%;
         padding: 50px;
         color: grey;
