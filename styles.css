@@ -24,7 +24,7 @@ body {
     margin-right: auto;
   }
   .header {
-    background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url("img/background.jpg");
+    background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url("img/background1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
