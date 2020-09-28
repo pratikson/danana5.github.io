@@ -76,7 +76,12 @@ body {
   .description {
     text-align: center;
   }
-
+  .card-deck {
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    margin-top: 26px;
+  }
   h1 {
         color: white;
         text-align: top;
