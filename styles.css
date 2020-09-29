@@ -98,6 +98,34 @@ body {
   .description {
     text-align: center;
   }
+  .button a{
+    border: none;
+    color: grey;
+    border-radius: 10%;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Inconsolata;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .button5{
+    background-color: whitesmoke;
+    color: whitesmoke;
+    border: 2px solid grey;
+  }
+
+  .button5:hover{
+    background-color: grey;
+  }
+  
+  .button5:hover a{
+    color: white;
+  }
+
   .card-deck {
     margin-left: auto;
     margin-right:auto;
@@ -110,11 +138,14 @@ body {
         font-size: 280%;
         padding: 50px;
   }
-  a {
+  .headbar {
+    text-align: center;
+  }
+  .headbar a {
       color: white;
       padding: 30px;
   }
-  a:hover {
+ .headbar a:hover {
       color: grey;
       text-decoration: none;
   }
