@@ -32,7 +32,29 @@ body {
     align-content: center;
     height: 100%;
   }
-
+  .headshot img {
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+    box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
+  }
+  .project_image img{
+    border-radius: 10px;
+    max-width: 600px;
+    align-content: right;
+    max-height: 200px;
+  }
+  .project_card {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right:200px;
+    box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
+}
   .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -54,23 +76,22 @@ body {
     from, to { border-color: transparent }
     50% { border-color:black; }
   }
-  img {
-    margin-top: 30px;
-    vertical-align: middle;
-    width: 300px;
-    border-radius: 50%;
-    height: 300px;
-    box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
-  }
   .about {
     background-color: white;
   }
-  .image_caption {
+  .projects {
+    margin-bottom: 60px;
+  }
+  .project_description{
+    text-align: left;
+  }
+  .image_caption h3{
     margin-top: 10px;
-    margin-left: 44%;
+    margin-left: auto;
+    margin-right: auto;
     vertical-align: center;
     align-content: middle;
-    width: 12%;
+    width: 185px;
     text-align: center;
     background-color: grey;
   }
@@ -119,6 +140,18 @@ body {
     font-weight: bold;
     text-align: center;
   }
+  h6 {
+    font-size: 400%;
+    padding: 50px;
+    color: whitesmoke
+  }
+  h7 {
+    font-size: 180%;
+    color: grey;
+    background-color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+  }
   p {
         font-size: 200%;
         padding: 50px;
@@ -129,3 +162,8 @@ body {
         padding: 50px;
         color: grey;
   }
+  p3 {
+    font-size: 125%;
+    padding: 50px;
+    color: whitesmoke;
+}
