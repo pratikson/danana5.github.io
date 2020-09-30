@@ -279,10 +279,6 @@ body {
     color: whitesmoke;
     text-decoration: none;
   }
-  a[id= "Skills"]:target {
-    -webkit-transform: translateY( 0px);
-    transform: translateY( 0px );
-  }
   .fa:hover {
       opacity: 0.7;
   }
