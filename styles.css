@@ -132,7 +132,14 @@ body {
       grid-template-columns: 100%;
       padding: 60px;
     }
-    
+    .about img{
+      border-radius: 10%;
+      max-width: 600px;
+      max-height: 600px;
+      margin-top: auto;
+      margin-bottom: 20px;
+      box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
+    }
     .project_card {
       background-color: grey;
       border-radius: 10px;
