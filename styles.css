@@ -112,6 +112,23 @@ body {
     transition-duration: 0.2s;
     cursor: pointer;
   }
+  @media screen and (max-width: 600px) {
+    .button a{
+      border: none;
+      color: grey;
+      border-radius: 10%;
+      padding: 1%;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-family: Inconsolata;
+      font-size: 100%;
+      margin: 2%;
+      transition-duration: 0.2s;
+      cursor: pointer;
+    }
+  }
+
   .button5{
     background-color: whitesmoke;
     color: whitesmoke;
