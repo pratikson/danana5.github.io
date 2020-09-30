@@ -112,6 +112,21 @@ body {
     cursor: pointer;
   }
   @media screen and (max-width: 600px) {
+    .header {
+      background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url("img/background1.jpg");
+      background-position: center;
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-attachment: local;
+      align-content: center;
+      height: 100%;
+    }
+    h1 {
+      color: white;
+      text-align: top;
+      font-size: 10%;
+      padding: 50px;
+      }
     .button a{
       border: none;
       color: grey;
@@ -125,21 +140,18 @@ body {
       transition-duration: 0.2s;
       cursor: pointer;
      }
-     .grid-container {
-      display: inline;
-    }
     .about-card {
       background-color: whitesmoke;
       border-radius: 10px;
-      padding: 20px;
+      padding: 2px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 20px;
     }
     .about img{
       border-radius: 10%;
-      max-width: 600px;
-      max-height: 600px;
+      max-width: 400px;
+      max-height: 400px;
       margin-top: auto;
       margin-bottom: 20px;
       box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
@@ -160,11 +172,11 @@ body {
       max-height: 200px;
    }
    .headshot img {
-    margin-top: 30px;
+    margin-top: 5px;
     vertical-align: middle;
-    width: 300px;
+    width: 35%;
     border-radius: 50%;
-    height: 400px;
+    height: 30%;
     box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
    }
    h1 {
@@ -173,18 +185,27 @@ body {
     font-size: 280%;
     padding: 50px;
     }
-    p {
-      font-size: 150%;
-      padding: 50px;
+    a {
+      font-size: 60%;
+      align-content: left;
+      padding: 0px;
       color:whitesmoke;
     }
-    .grid-item {
-      border: none;
-      border-radius: auto;
-      margin-right: auto;
-      padding: 10px;
-      font-size: 30px;
-      text-align: center;
+    p a{
+      padding:0px;
+    }
+    .headbar {
+      padding:none;
+      text-align: left;
+    }
+    .headbar a {
+      text-align: left;
+      color: white;
+      padding: 0px;
+    }
+   .headbar a:hover {
+        color: grey;
+        text-decoration: none;
     }
   }
   .about{
@@ -200,28 +221,12 @@ body {
   }
   .about img{
     border-radius: 10%;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 80%;
+    max-height: 80%;
     margin-top: auto;
     margin-bottom: 20px;
     box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
   }
-.grid-container {
-  display: grid;
-  align-content: left;
-  border-radius: 10%;
-  grid-template-columns: 50% 50% ;
-  padding: 60px;
-}
-
-.grid-item {
-  border: none;
-  border-radius: 10%;
-  margin-right: 10%;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-}
   .button5{
     background-color: whitesmoke;
     color: whitesmoke;
@@ -247,7 +252,7 @@ body {
   h1 {
         color: white;
         text-align: top;
-        font-size: 280%;
+        font-size: 200%;
         padding: 50px;
   }
   .headbar {
@@ -338,12 +343,13 @@ body {
     text-align: center;
   }
   h8{
-    font-size: 60%;
+    padding: 10px;
+    font-size: 100%;
     color: grey;
   }
   p {
         font-size: 200%;
-        padding: 50px;
+        padding: 15px;
         color:whitesmoke;
   }
   p2 {
