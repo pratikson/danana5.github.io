@@ -126,11 +126,15 @@ body {
       cursor: pointer;
      }
      .grid-container {
-      display: grid;
-      align-content: left;
-      border-radius: 10%;
-      grid-template-columns: 100%;
-      padding: 60px;
+      display: inline;
+    }
+    .about-card {
+      background-color: whitesmoke;
+      border-radius: 10px;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
     }
     .about img{
       border-radius: 10%;
@@ -173,6 +177,14 @@ body {
       font-size: 150%;
       padding: 50px;
       color:whitesmoke;
+    }
+    .grid-item {
+      border: none;
+      border-radius: auto;
+      margin-right: auto;
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
     }
   }
   .about{
