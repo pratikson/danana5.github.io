@@ -35,9 +35,9 @@ body {
   .headshot img {
     margin-top: 30px;
     vertical-align: middle;
-    width: 300px;
+    width: 18%;
     border-radius: 50%;
-    height: 300px;
+    height: 33%;
     box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
   }
   .project_image img{
