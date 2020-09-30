@@ -53,7 +53,6 @@ body {
     margin-top: 60px;
     margin-left: 12%;
     margin-right: 12%;
-    box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
 }
   .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -112,7 +111,7 @@ body {
     transition-duration: 0.2s;
     cursor: pointer;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 600px) {
     .button a{
       border: none;
       color: grey;
@@ -126,6 +125,14 @@ body {
       transition-duration: 0.2s;
       cursor: pointer;
      }
+     .grid-container {
+      display: grid;
+      align-content: left;
+      border-radius: 10%;
+      grid-template-columns: 100%;
+      padding: 60px;
+    }
+    
     .project_card {
       background-color: grey;
       border-radius: 10px;
@@ -137,16 +144,16 @@ body {
     }
    .project_image img{
       border-radius: 10px;
-      max-width: 90%;
+      max-width: 500px;
       align-content: right;
-      max-height: 60%;
+      max-height: 200px;
    }
    .headshot img {
     margin-top: 30px;
     vertical-align: middle;
-    width: 40%;
+    width: 300px;
     border-radius: 50%;
-    height: 33%;
+    height: 400px;
     box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
    }
    h1 {
@@ -161,7 +168,41 @@ body {
       color:whitesmoke;
     }
   }
+  .about{
+    background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url("img/background3.jpg");
+  }
+  .about-card {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .about img{
+    border-radius: 10%;
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: auto;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
+  }
+.grid-container {
+  display: grid;
+  align-content: left;
+  border-radius: 10%;
+  grid-template-columns: 50% 50% ;
+  padding: 60px;
+}
 
+.grid-item {
+  border: none;
+  border-radius: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
   .button5{
     background-color: whitesmoke;
     color: whitesmoke;
@@ -175,7 +216,9 @@ body {
   .button5:hover a{
     color: white;
   }
-
+  a:hover{
+    text-decoration: none;
+  }
   .card-deck {
     margin-left: auto;
     margin-right:auto;
@@ -198,6 +241,48 @@ body {
  .headbar a:hover {
       color: grey;
       text-decoration: none;
+  }
+  .contact{
+    background-color:whitesmoke;
+  }
+  .fa {
+    padding: 1px;
+    width: 30px;
+    font-size: 200%;
+    margin-top: 60px;
+    margin-bottom:60px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa a{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+  
+  .fa-facebook {
+    color: grey;
+  }
+  
+  .fa-twitter {
+    color: grey;
+  }
+  .fa-linkedin {
+    color: grey;
+  }
+  .fa-envelope-square{
+    color: grey;
+  }
+  .fa-instagram {
+    color: grey;
   }
   h2 {
       color: grey;
@@ -233,6 +318,10 @@ body {
     font-weight: bold;
     text-align: center;
   }
+  h8{
+    font-size: 60%;
+    color: grey;
+  }
   p {
         font-size: 200%;
         padding: 50px;
@@ -248,3 +337,7 @@ body {
     padding: 50px;
     color: whitesmoke;
 }
+  p4 {
+    font-size: 100%;
+    color: grey;
+  }
