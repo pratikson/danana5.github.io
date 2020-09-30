@@ -51,8 +51,8 @@ body {
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 60px;
-    margin-left: 200px;
-    margin-right:200px;
+    margin-left: 12%;
+    margin-right: 12%;
     box-shadow: 10px 10px 40px -9px rgba(0,0,0,0.75);
 }
   .typewriter h1 {
